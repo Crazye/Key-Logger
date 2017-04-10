@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmKeylogger
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmKeylogger
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmKeylogger))
         Me.cmdBegin = New System.Windows.Forms.Button()
@@ -36,7 +36,6 @@ Partial Class frmKeylogger
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.chkFile = New System.Windows.Forms.CheckBox()
         Me.OpenFileDialog = New System.Windows.Forms.OpenFileDialog()
-        Me.BtnTest = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -103,9 +102,9 @@ Partial Class frmKeylogger
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.status})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 392)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 269)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(580, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(443, 22)
         Me.StatusStrip1.SizingGrip = False
         Me.StatusStrip1.TabIndex = 4
         Me.StatusStrip1.Text = "StatusStrip1"
@@ -113,7 +112,7 @@ Partial Class frmKeylogger
         'status
         '
         Me.status.Name = "status"
-        Me.status.Size = New System.Drawing.Size(134, 17)
+        Me.status.Size = New System.Drawing.Size(120, 17)
         Me.status.Text = "ToolStripStatusLabel1"
         '
         'lblAbout
@@ -147,7 +146,7 @@ Partial Class frmKeylogger
         'chkFile
         '
         Me.chkFile.AutoSize = True
-        Me.chkFile.Location = New System.Drawing.Point(164, 234)
+        Me.chkFile.Location = New System.Drawing.Point(18, 234)
         Me.chkFile.Name = "chkFile"
         Me.chkFile.Size = New System.Drawing.Size(108, 16)
         Me.chkFile.TabIndex = 8
@@ -161,21 +160,11 @@ Partial Class frmKeylogger
         Me.OpenFileDialog.FileName = "C:\ntklr.sys"
         Me.OpenFileDialog.ValidateNames = False
         '
-        'BtnTest
-        '
-        Me.BtnTest.Location = New System.Drawing.Point(422, 289)
-        Me.BtnTest.Name = "BtnTest"
-        Me.BtnTest.Size = New System.Drawing.Size(75, 23)
-        Me.BtnTest.TabIndex = 9
-        Me.BtnTest.Text = "test"
-        Me.BtnTest.UseVisualStyleBackColor = True
-        '
         'frmKeylogger
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(580, 414)
-        Me.Controls.Add(Me.BtnTest)
+        Me.ClientSize = New System.Drawing.Size(443, 291)
         Me.Controls.Add(Me.chkFile)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lblTitle2)
@@ -209,5 +198,4 @@ Partial Class frmKeylogger
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents chkFile As System.Windows.Forms.CheckBox
     Friend WithEvents OpenFileDialog As System.Windows.Forms.OpenFileDialog
-    Friend WithEvents BtnTest As Button
 End Class

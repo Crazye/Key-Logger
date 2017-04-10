@@ -18,3 +18,13 @@ D:\Wayne\work\NetProject\vb-keylogger-master\vbKeylogger\obj\x86\Debug\vbKeylogg
 D:\Wayne\work\NetProject\vb-keylogger-master\vbKeylogger\obj\x86\Debug\svchost.exe
 D:\Wayne\work\NetProject\vb-keylogger-master\vbKeylogger\obj\x86\Debug\svchost.xml
 D:\Wayne\work\NetProject\vb-keylogger-master\vbKeylogger\obj\x86\Debug\svchost.pdb
+D:\Wayne\GitHub\MyRepository\Key-Logger\vbKeylogger\bin\Debug\svchost.exe
+D:\Wayne\GitHub\MyRepository\Key-Logger\vbKeylogger\bin\Debug\svchost.pdb
+D:\Wayne\GitHub\MyRepository\Key-Logger\vbKeylogger\bin\Debug\svchost.xml
+D:\Wayne\GitHub\MyRepository\Key-Logger\vbKeylogger\obj\x86\Debug\vbKeylogger.vbprojResolveAssemblyReference.cache
+D:\Wayne\GitHub\MyRepository\Key-Logger\vbKeylogger\obj\x86\Debug\vbKeylogger.frmKeylogger.resources
+D:\Wayne\GitHub\MyRepository\Key-Logger\vbKeylogger\obj\x86\Debug\vbKeylogger.Resources.resources
+D:\Wayne\GitHub\MyRepository\Key-Logger\vbKeylogger\obj\x86\Debug\vbKeylogger.vbproj.GenerateResource.Cache
+D:\Wayne\GitHub\MyRepository\Key-Logger\vbKeylogger\obj\x86\Debug\svchost.exe
+D:\Wayne\GitHub\MyRepository\Key-Logger\vbKeylogger\obj\x86\Debug\svchost.xml
+D:\Wayne\GitHub\MyRepository\Key-Logger\vbKeylogger\obj\x86\Debug\svchost.pdb
