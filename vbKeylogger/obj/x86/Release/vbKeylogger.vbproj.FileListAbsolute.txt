@@ -1,0 +1,9 @@
+E:\Wayne\github\net\vb-keylogger-master\vbKeylogger\bin\Release\svchost.exe
+E:\Wayne\github\net\vb-keylogger-master\vbKeylogger\bin\Release\svchost.pdb
+E:\Wayne\github\net\vb-keylogger-master\vbKeylogger\bin\Release\svchost.xml
+E:\Wayne\github\net\vb-keylogger-master\vbKeylogger\obj\x86\Release\vbKeylogger.frmKeylogger.resources
+E:\Wayne\github\net\vb-keylogger-master\vbKeylogger\obj\x86\Release\vbKeylogger.Resources.resources
+E:\Wayne\github\net\vb-keylogger-master\vbKeylogger\obj\x86\Release\vbKeylogger.vbproj.GenerateResource.Cache
+E:\Wayne\github\net\vb-keylogger-master\vbKeylogger\obj\x86\Release\svchost.exe
+E:\Wayne\github\net\vb-keylogger-master\vbKeylogger\obj\x86\Release\svchost.xml
+E:\Wayne\github\net\vb-keylogger-master\vbKeylogger\obj\x86\Release\svchost.pdb
